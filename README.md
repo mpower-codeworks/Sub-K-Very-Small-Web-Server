@@ -1,6 +1,6 @@
 # Sub-K-Very-Small-Web-Server
 
-<img src="images/logo.png" align="left" width="100" alt="Sub-K Logo">
+<img src="images/logo2.png" align="left" width="100" alt="Sub-K Logo">
 
 Sub-K is a Win32 static web server in 932 bytes. Features include requested file serving, index.htm default routing, basic MIME type support, and thread-per-client concurrent connections. Default port is 8080.
 

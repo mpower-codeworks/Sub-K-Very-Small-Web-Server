@@ -16,4 +16,8 @@ I just wanted to. It's fun.
 
 Yes. In build.bat change the value of HASHSIZE: to a lower number for a larger exe and lower RAM usage. For example, on the 932 byte version setting HASHSIZE:1 raises the exe size to 946 bytes and lowers RAM usage to 1.7 MB. Testing reveals that HASHSIZE:11 is about the limit. Any higher offers little or no byte savings and RAM usage can start getting bonkers.
 
+## Do I have to use Crinkler?
+
+Not at all. I've included build_no_crinkler.bat for compiling using only MASM. This makes the former 932 byte version 5.5 KB and reduces RAM usage to 0.5 MB, and also helps with A/V woes. I personally use Crinkler because I have interest in making usable Windows programs under 1 KB, that's all.
+
 

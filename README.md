@@ -12,7 +12,7 @@ If that isn't small enough for you, try version sbk_014 which has hard-coded "he
 
 <table>
     <tr>
-        <td align="left" width="40%" valign="top">
+        <td align="left" width="44%" valign="top">
             <img src="images/svr_window.png" width="100%" alt="title_screen"><br>
             The server running. There was no room left for messages.
         </td>

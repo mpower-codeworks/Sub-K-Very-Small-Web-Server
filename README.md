@@ -14,4 +14,6 @@ I just wanted to. It's fun.
 
 ## You said exe size and RAM usage are configurable?
 
-Yes. In build.bat change the value of HASHSIZE: to a lower number for a larger exe and lower RAM usage. For example, on the 932 byte version setting HASHSIZE:1 raises the exe size to 946 bytes and lowers RAM usage to 1.7 MB. Testing reveals that HASHSIZE:11 is about the limit. Any higher offers little or no byte savings and RAM usage can start getting bonnkers.
+Yes. In build.bat change the value of HASHSIZE: to a lower number for a larger exe and lower RAM usage. For example, on the 932 byte version setting HASHSIZE:1 raises the exe size to 946 bytes and lowers RAM usage to 1.7 MB. Testing reveals that HASHSIZE:11 is about the limit. Any higher offers little or no byte savings and RAM usage can start getting bonkers.
+
+

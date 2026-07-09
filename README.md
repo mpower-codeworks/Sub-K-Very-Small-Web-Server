@@ -1,4 +1,4 @@
-# Sub-K - a very small web server
+# Sub-K -- a very small web server
 
 <img src="images/logo2.png" align="left" width="100" alt="Sub-K Logo">
 

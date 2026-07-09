@@ -17,15 +17,8 @@ If that isn't small enough for you, try version sbk_014 which has hard-coded "he
             The server running. There was no room left for messages.
         </td>
         <td align="left" width="50%" valign="top">
-            <img src="Images/in_town.png" width="100%" alt="royal_bed"><br>
-        </td>
-    </tr>
-    <tr>
-        <td align="left" width="50%" valign="top">
-            <img src="Images/speak.png" width="100%" alt="speak"><br>
-        </td>
-        <td align="left" width="50%" valign="top">
-            <img src="Images/dont_steal.png" width="100%" alt="dont_steal"><br>
+            <img src="images/index.png" width="100%" alt="royal_bed"><br>
+            The Sub-K default start page
         </td>
     </tr>
 </table>

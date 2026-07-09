@@ -10,6 +10,26 @@ Sub-K compiles with MASM and Crinkler. The build for this presentation is set at
 
 If that isn't small enough for you, try version sbk_014 which has hard-coded "hello" and comes in at 552 bytes. The exe size will grow/shrink byte-for-byte as you put in your custom text.
 
+<table>
+    <tr>
+        <td align="left" width="50%" valign="top">
+            <img src="images/svr_window.jpg" width="100%" alt="title_screen"><br>
+            The server running. There was no room left for messages.
+        </td>
+        <td align="left" width="50%" valign="top">
+            <img src="Images/in_town.png" width="100%" alt="royal_bed"><br>
+        </td>
+    </tr>
+    <tr>
+        <td align="left" width="50%" valign="top">
+            <img src="Images/speak.png" width="100%" alt="speak"><br>
+        </td>
+        <td align="left" width="50%" valign="top">
+            <img src="Images/dont_steal.png" width="100%" alt="dont_steal"><br>
+        </td>
+    </tr>
+</table>
+
 ## What is the point of this?
 
 I just wanted to. It's fun.

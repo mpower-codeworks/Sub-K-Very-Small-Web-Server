@@ -42,6 +42,8 @@ Not at all. I've included build_no_crinkler.bat for compiling using only MASM. T
 ## Couldn't you come up with a better name?
 "Hoagie" "Italian" and "#10" were considered. Actually "hoagie" for a server name makes me laugh. I may go back to that one in the future.
 
+## Compiling Sub-K
+
 **Important:** Programs using Crinkler can be flagged as a false positive by antivirus, including Windows Defender. You may need to make an antivirus exception folder to build this, or Windows may delete the EXE as soon as the build completes. Therefore, try this out AT YOUR OWN RISK - NO WARRANTIES / NO GUARANTEES. You can accomplish this with PowerShell.
 
 - MASM version used: Microsoft (R) Macro Assembler Version 14.44.35224.0 <br>

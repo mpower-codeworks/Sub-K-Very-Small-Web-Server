@@ -1,4 +1,4 @@
-# Sub-K -- a very small web server in 932 bytes
+# Sub-K - a very small web server in 932 bytes
 
 <img src="images/logo2.png" align="left" width="100" alt="Sub-K Logo">
 

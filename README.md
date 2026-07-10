@@ -41,3 +41,34 @@ Not at all. I've included build_no_crinkler.bat for compiling using only MASM. T
 
 ## Couldn't you come up with a better name?
 "Hoagie" "Italian" and "#10" were considered. Actually "hoagie" for a server name makes me laugh. I may go back to that one in the future.
+
+**Important:** Programs using Crinkler can be flagged as a false positive by antivirus, including Windows Defender. You may need to make an antivirus exception folder to build this, or Windows may delete the EXE as soon as the build completes. Therefore, try this out AT YOUR OWN RISK - NO WARRANTIES / NO GUARANTEES. You can accomplish this with PowerShell.
+
+- MASM version used: Microsoft (R) Macro Assembler Version 14.44.35224.0 <br>
+
+- MASM can vary depending on version. If you experience:
+```
+C:\masm32\include\winextra.inc(11052) : error A2026:constant expected
+C:\masm32\include\winextra.inc(11053) : error A2026:constant expected
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In masm32\include\winextra.inc change:<br>
+```
+    STD_ALERT struct<br>
+        alrt_timestamp dd ?<br>
+        alrt_eventname WCHAR  [EVLEN + 1] dup(?)
+        alrt_servicename WCHAR [SNLEN + 1] dup(?)
+    STD_ALERT ends
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to:<br>
+```
+    STD_ALERT struct<br>
+        alrt_timestamp dd ?<br>
+        alrt_eventname WCHAR  (EVLEN + 1) dup(?)
+        alrt_servicename WCHAR (SNLEN + 1) dup(?)
+    STD_ALERT ends<br>
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The brackets on lines 13,14 were changed to parens.<br>
+- Build.bat contains: /LIBPATH:"C:\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.20348.0\\um\\x86"<br>
+You may need to change to fit your system: /LIBPATH:"....\\Windows Kits\\10\\Lib\\(your version)\\um\\x86"
+- You need to have Crinkler installed in a directory that has been added to PATH.<br>
+Example: C:\utils\Crinkler.exe<br>

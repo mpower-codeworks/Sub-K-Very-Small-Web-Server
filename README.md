@@ -2,7 +2,7 @@
 
 <img src="images/logo2.png" align="left" width="100" alt="Sub-K Logo">
 
-Sub-K is a Win32 static web server in 932 bytes. Features include requested file serving, index.htm default routing, basic MIME type support, and thread-per-client concurrent connections. Default port is 8080.
+Sub-K (Server Under Barely a Kilobyte) is a Win32 static web server in 932 bytes. Features include requested file serving, index.htm default routing, basic MIME type support, and thread-per-client concurrent connections. Default port is 8080.
 
 Sub-K follows in the same tradition as [DTE](https://github.com/mpower-codeworks/Daves-Tiny-Editor), [HelloAssembly](https://github.com/PlummersSoftwareLLC/HelloAssembly), and [TRPad](https://github.com/mpower-codeworks/TinyRetroPad). It's not really descended from any of those, aside from the flat memory model. My inspiration for Sub-1KB works came directly from Dave Plummer's HelloAssembly which again, can be found [here](https://github.com/PlummersSoftwareLLC/HelloAssembly). 
 

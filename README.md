@@ -12,22 +12,19 @@ If that isn't small enough for you, try version sbk_014 which has hard-coded "he
 
 <table>
     <tr>
-        <td align="left" width="44%" valign="top">
-            <img src="images/svr_window.png" width="100%" alt="title_screen"><br>
-            The server running. There was no room left for messages.
-        </td>
         <td align="left" width="50%" valign="top">
             <img src="images/index.png" width="100%" alt="royal_bed"><br>
             The Sub-K default start page
         </td>
-    </tr>
-    <tr>
         <td align="left" width="44%" valign="top">
             <img src="images/a2_index.jpg" width="100%" alt="a2_index"><br>
             The custom Apple II Example Page
         </td>
-        <td align="left" width="50%" valign="top">
-            a
+    </tr>
+    <tr>
+        <td align="left" width="44%" valign="top">
+            <img src="images/svr_window.png" width="100%" alt="title_screen"><br>
+            The server running. There was no room left for messages.
         </td>
     </tr>
 </table>

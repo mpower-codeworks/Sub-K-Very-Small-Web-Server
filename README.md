@@ -32,6 +32,10 @@ If that isn't small enough for you, try version sbk_014 which has hard-coded "he
 <br>
 Concurrent sessions testing was done with Apple IIe, iPhone, Win 11, and Win Server 2019. 
 
+### How to use Sub-K
+
+Make sure you are not already running a server on port 80. Download/clone, unzip, and double-click sbk.exe. The web server is now running on port 80. Visit from a browser to localhost or by idappress from another machine. The fixed default page is index.htm. The Apple II sample page may be of interest. It's designed to look the same whether from Contiki or a modern browser, and will be part of a different release.
+
 ### What is the point of this?
 
 I just wanted to. It's fun.

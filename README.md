@@ -29,6 +29,7 @@ If that isn't small enough for you, try version sbk_014 which has hard-coded "he
     </tr>
 </table>
 
+<br>
 Concurrent sessions testing was done with Apple IIe, iPhone, Win 11, and Win Server 2019. 
 
 ### What is the point of this?

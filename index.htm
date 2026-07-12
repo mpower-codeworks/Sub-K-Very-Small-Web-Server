@@ -1,0 +1,209 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Welcome to Sub-K
+        </title>
+        <style>
+        
+        html,
+        body {
+            min-height: 100%;
+            margin:     0;
+        }
+
+        body {
+            background: #000
+                url("images/blue.png")
+                    center / cover fixed no-repeat;
+            color: #fff;
+            font-family: Tahoma, "Times New Roman", serif;
+        }
+
+        body::before {
+            content:    "";
+            position:   fixed;
+            inset:      0;
+            box-sizing: border-box;
+            border: 8px double #fff;
+            pointer-events: none;
+        }
+
+        .page {
+            padding: 1rem;
+        }
+
+        .logo {
+            display: block;
+            width:   100px;
+            height:  auto;
+            margin:  0 0 1rem 0;
+        }
+
+        .title-text {
+            margin:      0 0 1rem 0;
+            color:       #fff;
+            font-size:   2.5rem;
+            font-weight: bold;
+            line-height: 1.1;
+        }
+
+        .body-text {
+            margin:      0 0 1rem 0;
+            color:       #fff;
+            font-size:   1rem;
+            font-weight: normal;
+            line-height: 1.4;
+        }
+        .medium-text {
+            margin:      0;
+            color:       #fff;
+            font-size:   1.25rem;
+            font-weight: bold;
+            line-height: 1.4;
+        }
+        .small-text {
+            margin:      0 0 1rem 0;
+            color:       #ddd;
+            font-size:   0.85rem;
+            font-weight: normal;
+            line-height: 1.3;
+        }
+        
+        table {
+            width:           75%;
+            table-layout:    fixed;
+            border-collapse: collapse;
+        }
+
+        td {
+            width:          25%;
+            padding:        10px;
+            vertical-align: top;
+            white-space:    normal;
+            overflow-wrap:  break-word;
+            word-wrap:      break-word;
+        }
+        
+        td.middle-cell {
+            vertical-align: middle;
+            text-align:     left;
+        }
+
+        td.middle-cell .medium-text {
+            margin: 0;
+        }
+        
+        .logo {
+            display: block;
+            width:   100px;
+            height:  auto;
+            margin:  0 0 1rem 0;
+        }
+
+        .photo {
+            display: block;
+            width:   175px;
+            height:  auto;
+            margin:  0 0 1rem 0;
+        }
+        
+        a,
+        a:visited {
+            color:           inherit;
+            text-decoration: none;
+        }
+
+        a:hover,
+        a:focus {
+            color:           #ffff99;
+            text-decoration: underline;
+        }
+
+        a:focus-visible {
+            outline:        2px solid #ffff99;
+            outline-offset: 3px;
+        }
+                
+        </style>
+    </head>
+    <body>
+        <div class="page">
+            <table>
+                <tr>
+                    <td>
+                        <img class="logo" src="images/logo2.png" alt="Sub-K Logo" align="center">
+                    </td>
+                    <td>
+                        <main class="title-text">
+                            Welcome to Sub-K
+                        </main>
+                    </td>
+                    <td>
+                        <img class="photo" src="images/lady.jpg" alt="lady" align="center">
+                    </td>
+                    <td class="middle-cell">
+                        <main class="medium-text">
+                            Collaborate
+                        </main>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <main class="body-text">
+                            <a href="https://github.com/mpower-codeworks/Sub-K-Very-Small-Web-Server">Sub-K</a>
+                            is a 932-byte Win32 static web server
+                            compiled with MASM. It serves files, supports
+                            basic MIME types, and handles concurrent clients.
+                        </main>
+                    </td>
+                    <td>
+                        <main class="body-text">
+                            Crinkler keeps the showcase build under 1 KB. A 
+                            regular MASM/LINK build is included too.
+                        </main>
+                    </td>
+                    <td class="middle-cell">
+                        <main class="medium-text">
+                            Exchange Ideas
+                        </main>
+                    </td>
+                    <td>
+                        <img class="photo" src="images/guy.jpg" alt="guy" align="center">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <main class="body-text">
+                            <a href="https://github.com/mpower-codeworks/Sub-K-Very-Small-Web-Server">Sub-K</a>
+                            includes numbered source-code stages, so
+                            you can jump into the project at different
+                            sizes and feature levels.
+                        </main>
+                    </td>
+                    <td>
+                        <main class="body-text">
+                            Did you know? Parts of Sub-K were written with
+                            <a href="https://github.com/mpower-codeworks/Daves-Tiny-Editor">DTE</a>,
+                            another fully working sub-1KB experiment.
+                        </main>
+                    </td>
+                    <td>
+                        <img class="photo" src="images/boy.jpg" alt="boy" align="left">
+                    </td>
+                    <td class="middle-cell">
+                        <main class="medium-text">
+                            Experiment
+                        </main>
+                    </td>
+                </tr>
+            </table>
+            <div class="body-text">
+                &copy;2026 <a href="https://github.com/mpower-codeworks">M. Power</a>.
+                Redistributable per the terms of the Apache-2.0 license.
+            </div>
+        </div>
+    </body>
+</html>

@@ -21,6 +21,15 @@ If that isn't small enough for you, try version sbk_014 which has hard-coded "he
             The Sub-K default start page
         </td>
     </tr>
+    <tr>
+        <td align="left" width="44%" valign="top">
+            <img src="images/a2_index.jpg" width="100%" alt="a2_index"><br>
+            The custom Apple II Example Page
+        </td>
+        <td align="left" width="50%" valign="top">
+            a
+        </td>
+    </tr>
 </table>
 
 Concurrent sessions testing was done with Apple IIe, iPhone, Win 11, and Win Server 2019. 

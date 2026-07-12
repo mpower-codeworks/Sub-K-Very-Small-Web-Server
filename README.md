@@ -23,11 +23,11 @@ If that isn't small enough for you, try version sbk_014 which has hard-coded "he
     </tr>
 </table>
 
-## What is the point of this?
+### What is the point of this?
 
 I just wanted to. It's fun.
 
-## Is this production ready?
+### Is this production ready?
 
 No. Sub-K is a sizecoding experiment and tiny local/static web server. It is not meant to replace a hardened production server.
 
@@ -35,14 +35,14 @@ No. Sub-K is a sizecoding experiment and tiny local/static web server. It is not
 
 Yes. In build.bat change the value of HASHSIZE: to a lower number for a larger exe and lower RAM usage. For example, on the 932 byte version setting HASHSIZE:1 raises the exe size to 946 bytes and lowers RAM usage to 1.7 MB. Testing reveals that HASHSIZE:11 is about the limit. Any higher offers little or no byte savings and RAM usage can start getting bonkers.
 
-## Do I have to use Crinkler?
+### Do I have to use Crinkler?
 
 Not at all. I've included build_no_crinkler.bat for compiling using only MASM. This makes the former 932 byte version 5.5 KB and reduces RAM usage to 0.5 MB, and also helps with A/V woes. I personally use Crinkler because I have interest in making usable Windows programs under 1 KB, that's all.
 
 ## Couldn't you come up with a better name?
 "Hoagie" "Italian" and "#10" were considered. Actually "hoagie" for a server name makes me laugh. I may go back to that one in the future.
 
-## Compiling Sub-K
+### Compiling Sub-K
 
 **Important:** Programs using Crinkler can be flagged as a false positive by antivirus, including Windows Defender. You may need to make an antivirus exception folder to build this, or Windows may delete the EXE as soon as the build completes. Therefore, try this out AT YOUR OWN RISK - NO WARRANTIES / NO GUARANTEES. You can accomplish this with PowerShell.
 

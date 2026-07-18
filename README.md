@@ -1,12 +1,12 @@
-# Sub-K - a very small web server in 887 bytes
+# Sub-K - a very small web server in 861 bytes
 
 <img src="images/logo2.png" align="left" width="100" alt="Sub-K Logo">
 
-Sub-K (Server Under Barely a Kilobyte) is a Win32 static web server in 887 bytes. Features include requested file serving, index.htm default routing, basic MIME type support, and thread-per-client concurrent connections. Default port is 80.
+Sub-K (Server Under Barely a Kilobyte) is a Win32 static web server in 861 bytes. Features include requested file serving, index.htm default routing, basic MIME type support, and thread-per-client concurrent connections. Default port is 80.
 
 Sub-K follows in the same tradition as [DTE](https://github.com/mpower-codeworks/Daves-Tiny-Editor), [HelloAssembly](https://github.com/PlummersSoftwareLLC/HelloAssembly), and [TRPad](https://github.com/mpower-codeworks/TinyRetroPad). It's not really descended from any of those, aside from the flat memory model. My inspiration for Sub-1KB works came directly from Dave Plummer's HelloAssembly which again, can be found [here](https://github.com/PlummersSoftwareLLC/HelloAssembly). 
 
-Sub-K compiles with MASM and Crinkler. The build for this presentation is set at 887 bytes exe using 11.7 MB of RAM at run time. These are configurable. The source code history also offers "stages". If, for example, you want a much smaller exe with less features, you can build version sbk_017 for a single connection, single page, no images, server in 657 bytes.
+Sub-K compiles with MASM and Crinkler. The build for this presentation is set at 861 bytes exe using 11.7 MB of RAM at run time. These are configurable. The source code history also offers "stages". If, for example, you want a much smaller exe with less features, you can build version sbk_017 for a single connection, single page, no images, server in 657 bytes.
 
 If that isn't small enough for you, try version sbk_014 which has hard-coded "hello" and comes in at 552 bytes. The exe size will grow/shrink byte-for-byte as you put in your custom text.
 
